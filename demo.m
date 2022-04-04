@@ -2,7 +2,7 @@
 %   Demonstration of drawing the domain of linear inequalities:
 %      Ax <= b, A \in R^{m*2}, b \in R^{m*1}
 %
-%   Written by Wu Si (wusixstx@163.com)
+%   Written by Wu Si
 %}
 clear all; close all; clc;
 

@@ -1,8 +1,8 @@
 %{
 %   Drawing the domain of linear inequalities:
-%      Ax <= b, A¡ÊR^{m*2}, b¡ÊR^{m*1}
+%      Ax <= b, A \in R^{m*2}, b \in R^{m*1}
 %
-%   Written by Wu Si (wusixstx@163.com)
+%   Written by Wu Si
 %}
 function H = half_plane(H, A, b, bias, varargin)
 if(isempty(H))
