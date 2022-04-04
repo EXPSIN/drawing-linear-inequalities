@@ -1,5 +1,5 @@
 %{
-%   Drawing the domain linear inequalities:
+%   Drawing the domain of linear inequalities:
 %      Ax <= b, A¡ÊR^{m*2}, b¡ÊR^{m*1}
 %
 %   Written by Wu Si (wusixstx@163.com)
