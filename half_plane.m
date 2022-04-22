@@ -30,7 +30,7 @@ if(isempty(H))
     axis(H.p_limit);
 else
     % Update
-    H.bias      = H.bias;      %
+    H.bias      = bias;      %
     [x, ~] = calcu_polyhedron(A, b, H.P);
     H.handle_space.XData = x(1,:)+H.bias(1);
     H.handle_space.YData = x(2,:)+H.bias(2);
@@ -91,7 +91,7 @@ for k = 1:size(A_P, 1)
     end
 end
 
-% 获取有效的边界
+% 禄帽脠隆脫脨脨搂碌脛卤脽陆莽
 xall  = xall(:, A*xall-b <= 1e-6);
 % xall  = unique(xall', 'rows')';
 
